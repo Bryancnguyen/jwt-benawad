@@ -1,0 +1,24 @@
+{
+   "type": "postgres",
+   "host": "Bryans-MacBook-Pro-2.local",
+   "port": 5432,
+   "username": "bryannguyen",
+   "password": "bryannguyen",
+   "database": "bryandb",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/entity/**/*.ts"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
